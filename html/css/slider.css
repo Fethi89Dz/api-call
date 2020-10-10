@@ -1,0 +1,89 @@
+
+ .item{
+  height: 10rem;
+  background: #4DC7A0;
+  padding: 1rem;
+
+}
+
+.gallery-item{
+
+  float: left;
+}
+
+.gallery{
+	position: relative;
+}
+
+body {
+  background: #fff;
+  color: #222;
+  cursor: auto;
+  font-family: "Lato","Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  height: 100%;
+
+}
+
+.item h4 {
+  color: #FFF;
+  font-weight: 400;
+  margin-top: 0rem;
+}
+
+.prev,
+.next {
+  background-size: 28px;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.prev {
+  background-image: url(https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/ChevronLeft-512.png);
+  left: -20px;
+}
+
+.next {
+  background-image: url(https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/ChevronRight-512.png);
+  right: -20px;
+}
+
+.prev:active,
+.next:active {
+  transform: scale(0.8);
+}
+
+#btn-box{
+  text-align: center;
+  display: block;
+  width: 100%;
+  float: left;
+  margin-top: 50px;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 1200ms ease-out;
+}
+
+.dot-active{
+  background-color: #869791;
+}
+
+#dots{
+  text-align: center;
+  padding-top: 30px;
+}
